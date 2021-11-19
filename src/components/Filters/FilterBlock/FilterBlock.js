@@ -9,9 +9,7 @@ class FilterBlock extends Component{
 	state = {
 		filterData: this.props.filterData,
 		query: {
-			category: [],
-			sortbyprice:[],
-			sortbyrating:[]
+			category: []
 		}
 	}
 
